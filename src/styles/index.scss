@@ -1,0 +1,83 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import "../../node_modules/@glidejs/glide/src/assets/sass/glide.core";
+//@import "../../node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+@import "../../node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/css/solid.css";
+
+@import "./breakpoints";
+@import "./variables";
+@import "../blocks/**/**/**.scss";
+
+//fonts
+/*
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+*/
+
+//@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../fonts/Roboto Regular/Roboto-Regular.eot");
+  src: url("../fonts/Roboto Regular/Roboto-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Roboto Regular/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto Regular/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Light BETA";
+  src: url("../fonts/Inter Light BETA/Inter-Light-BETA.eot");
+  src: url("../fonts/Inter Light BETA/Inter-Light-BETA.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Inter Light BETA/Inter-Light-BETA.woff") format("woff"),
+    url("../fonts/Inter Light BETA/Inter-Light-BETA.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  src: url("../fonts/Inter Regular/Inter-Regular.eot");
+  src: url("../fonts/Inter Regular/Inter-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Inter Regular/Inter-Regular.woff") format("woff"),
+    url("../fonts/Inter Regular/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Medium";
+  src: url("../fonts/Inter Medium/Inter-Medium.eot");
+  src: url("../fonts/Inter Medium/Inter-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Inter Medium/Inter-Medium.woff") format("woff"),
+    url("../fonts/Inter Medium/Inter-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  //font-family: "Inter Regular";
+  font-family: "Inter Light BETA";
+  color: $charcoal-black;
+  overflow-x: hidden;
+}

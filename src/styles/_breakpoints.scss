@@ -1,0 +1,29 @@
+//breakpoints
+
+/*
+@include sm {}
+@include md {}
+@include lg {}
+@include xl {}
+*/
+
+@mixin sm {
+  @media (max-width: 679px) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: 680px) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: 1120px) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: 1496px) {
+    @content;
+  }
+}
