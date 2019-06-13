@@ -1,0 +1,17 @@
+.footer__links {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+
+  font-size: 14px;
+  margin-top: 20px;
+  @include sm {
+    flex-direction: column;
+  }
+  @include md {
+  }
+  @include lg {
+  }
+  @include xl {
+  }
+}

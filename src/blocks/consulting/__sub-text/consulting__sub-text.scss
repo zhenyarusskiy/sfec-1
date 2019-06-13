@@ -1,0 +1,21 @@
+.consulting__sub-text {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+
+  @include sm {
+    flex-direction: column;
+  }
+  @include md {
+    flex-direction: column;
+  }
+  @include lg {
+    flex-direction: row;
+    align-items: center;
+  }
+  @include xl {
+    flex-direction: row;
+    align-items: center;
+  }
+}

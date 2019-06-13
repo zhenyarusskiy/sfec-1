@@ -1,0 +1,12 @@
+.col_one-third {
+  @include sm {
+  }
+  @include md {
+  }
+  @include lg {
+    width: calc(33% - 27px);
+  }
+  @include xl {
+    width: calc(33% - 27px);
+  }
+}

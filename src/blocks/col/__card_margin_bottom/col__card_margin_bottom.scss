@@ -1,0 +1,14 @@
+.col__card_margin_bottom {
+  @include sm {
+    margin-bottom: 64px;
+  }
+  @include md {
+    margin-bottom: 64px;
+  }
+  @include lg {
+    margin-bottom: 80px;
+  }
+  @include xl {
+    margin-bottom: 80px;
+  }
+}

@@ -1,0 +1,14 @@
+.logo__circle_footer {
+  width: 70px;
+  height: 70px;
+  @include sm {
+    width: 40px;
+    height: 40px;
+  }
+  @include md {
+  }
+  @include lg {
+  }
+  @include xl {
+  }
+}

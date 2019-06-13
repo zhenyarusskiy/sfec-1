@@ -1,0 +1,17 @@
+.footer {
+  background-color: $charcoal-black;
+  color: $white;
+  display: flex;
+  @include sm {
+    min-height: 352px;
+  }
+  @include md {
+    min-height: 200px;
+  }
+  @include lg {
+    min-height: 200px;
+  }
+  @include xl {
+    min-height: 200px;
+  }
+}

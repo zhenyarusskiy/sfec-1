@@ -1,0 +1,24 @@
+.nav__link {
+  font-family: "Inter Regular";
+  font-weight: 300;
+  //color: $charcoal-black;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-decoration: none;
+  color: $white;
+  @include lg {
+    color: rgba($white, 0.8);
+  }
+  @include xl {
+    color: rgba($white, 0.8);
+  }
+
+  &:hover {
+    @include lg {
+      color: rgba($white, 1);
+    }
+    @include xl {
+      color: rgba($white, 1);
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.card__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: $grey-1;
+  margin: 0;
+
+  @include sm {
+    margin-bottom: 0;
+  }
+  @include md {
+  }
+  @include lg {
+    min-height: 72px;
+  }
+  @include xl {
+    min-height: 72px;
+  }
+}

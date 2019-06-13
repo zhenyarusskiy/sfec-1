@@ -1,0 +1,18 @@
+.header__mob-menu {
+  height: 12px;
+  width: 18px;
+  background-image: url("/src/img/menu_24px.png");
+  @include sm {
+    display: block;
+    margin-left: 19px;
+  }
+  @include md {
+    display: none;
+  }
+  @include lg {
+    display: none;
+  }
+  @include xl {
+    display: none;
+  }
+}

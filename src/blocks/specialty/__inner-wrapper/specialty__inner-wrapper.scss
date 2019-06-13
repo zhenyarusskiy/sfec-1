@@ -1,0 +1,29 @@
+.specialty__inner-wrapper {
+  display: flex;
+
+  flex-shrink: 0;
+  flex-direction: column;
+  @include sm {
+    position: static;
+  }
+  @include md {
+    top: 568px;
+    left: -768px;
+    width: 100%;
+    position: static;
+  }
+  @include lg {
+    max-width: 449px;
+    left: -92px;
+    top: 0;
+    position: relative;
+    //margin-top: 162px;
+  }
+  @include xl {
+    max-width: 600px;
+    left: -86px;
+    top: 0;
+    position: relative;
+    //margin-top: 162px;
+  }
+}

@@ -1,0 +1,14 @@
+.logo__caption_display_md {
+  @include sm {
+    display: block !important;
+  }
+  @include md {
+    display: none !important;
+  }
+  @include lg {
+    display: block !important;
+  }
+  @include xl {
+    display: block !important;
+  }
+}

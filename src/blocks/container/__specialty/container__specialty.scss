@@ -1,0 +1,27 @@
+.container__specialty {
+  width: 100%;
+
+  //justify-content: flex-end;
+  //margin: 0 auto !important;
+
+  @include sm {
+    margin-top: 120px !important;
+    position: static;
+    display: block;
+  }
+  @include md {
+    margin-top: 120px !important;
+    position: static;
+    display: block;
+  }
+  @include lg {
+    margin-top: 162px !important;
+    position: relative;
+    display: flex;
+  }
+  @include xl {
+    margin-top: 162px !important;
+    position: relative;
+    display: flex;
+  }
+}

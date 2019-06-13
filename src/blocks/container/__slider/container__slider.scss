@@ -1,0 +1,14 @@
+.container__slider {
+  @include sm {
+    margin-top: 80px;
+  }
+  @include md {
+    margin-top: 104px;
+  }
+  @include lg {
+    margin-top: 185px;
+  }
+  @include xl {
+    margin-top: 185px;
+  }
+}

@@ -1,0 +1,12 @@
+.col_half {
+  @include sm {
+  }
+  @include md {
+  }
+  @include lg {
+    width: calc(50% - 18px);
+  }
+  @include xl {
+    width: calc(50% - 18px);
+  }
+}

@@ -1,0 +1,12 @@
+.footer__menu {
+  margin-top: 48px;
+  @include sm {
+    flex-direction: column;
+  }
+  @include md {
+  }
+  @include lg {
+  }
+  @include xl {
+  }
+}

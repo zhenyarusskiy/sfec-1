@@ -1,0 +1,19 @@
+.nav__shopping-card {
+  position: relative;
+  top: -14px;
+  height: 24px;
+  //width: 100px;
+  background-repeat: no-repeat;
+  @include sm {
+    background-image: url("/src/img/shopping_cart_24px-black.png");
+  }
+  @include md {
+    background-image: url("/src/img/shopping_cart_24px-black.png");
+  }
+  @include lg {
+    background-image: url("/src/img/shopping_cart_24px.png");
+  }
+  @include xl {
+    background-image: url("/src/img/shopping_cart_24px.png");
+  }
+}
