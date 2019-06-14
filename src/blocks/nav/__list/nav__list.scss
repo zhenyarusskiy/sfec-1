@@ -1,13 +1,12 @@
 .nav__list {
   font-family: "Inter Medium";
-  padding: 16px 0 0 0;
   display: flex;
   justify-content: space-between;
   @include sm {
     //width: 30px;
     //margin-right: 19px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    //flex-wrap: wrap;
+    //justify-content: flex-start;
   }
   @include md {
     min-width: 450px;

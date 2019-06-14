@@ -1,0 +1,10 @@
+.footer__nav__list {
+  padding: 16px 0 0 0;
+  @include sm {
+    //width: 30px;
+    //margin-right: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+  }
+}
