@@ -1,9 +1,8 @@
 .logo__caption {
-  font-family: "Roboto Regular";
-  font-weight: bold;
+  font-family: "Roboto Bold";
   text-transform: uppercase;
   width: 70px;
-  
+
   @include sm {
     display: none;
   }
