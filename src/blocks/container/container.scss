@@ -1,23 +1,21 @@
 .container {
+  padding: 0 44px;
   margin: 0 auto;
   @include sm {
-    min-width: 288px;
-    max-width: 600px;
+    min-width: calc(288px + 16px * 2);  //320
+    max-width: calc(600px + 16px * 2);  //632
     padding: 0 16px;
   }
   @include md {
-    max-width: 768px;
-    min-width: 680px;
-    padding: 0 44px;
+    min-width: calc(680px + 44px * 2); //768
+    max-width: calc(768px + 44px * 2); //856
   }
   @include lg {
-    min-width: 769px;
-    max-width: 1120px;
-    padding: 0;
+    min-width: calc(769px + 44px * 2); //857
+    max-width: calc(1120px + 44px * 2); //1208
   }
   @include xl {
-    min-width: 1496px;
-    max-width: 1496px;
-    padding: 0;
+    min-width: calc(1496px + 44px * 2); //1584
+    max-width: calc(1496px + 44px * 2); //1584
   }
 }

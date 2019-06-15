@@ -1,7 +1,6 @@
 .footer {
   background-color: $charcoal-black;
   color: $white;
-  display: flex;
   @include sm {
     min-height: 352px;
   }
