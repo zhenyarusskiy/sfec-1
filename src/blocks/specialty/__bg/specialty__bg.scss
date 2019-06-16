@@ -1,9 +1,9 @@
 .specialty__bg {
   background-repeat: no-repeat;
-  //background-size: contain;
   position: relative;
 
   flex-shrink: 0;
+
   @include sm {
     top: 0px;
     left: -16px;
@@ -14,14 +14,16 @@
     background-image: url("/src/img/specialty-md.png");
     background-size: contain;
   }
+
   @include md {
     top: 0px;
     left: -44px;
-    width: 768px;
-    height: 432px;
+    width: calc(768px + 88px);
+    height: 482px;
     background-image: url("/src/img/specialty-md.png");
-    //background-size: contain;
+    background-size: contain;
   }
+
   @include lg {
     top: 8px;
     left: -160px;
@@ -30,6 +32,7 @@
     background-image: url("/src/img/specialty-xl.jpg");
     background-size: contain;
   }
+
   @include xl {
     top: 8px;
     left: -210px;

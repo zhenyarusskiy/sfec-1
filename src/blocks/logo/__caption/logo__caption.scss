@@ -3,16 +3,5 @@
   text-transform: uppercase;
   width: 70px;
 
-  @include sm {
-    display: none;
-  }
-  @include md {
-    display: block;
-  }
-  @include lg {
-    display: block;
-  }
-  @include xl {
-    display: block;
-  }
+
 }

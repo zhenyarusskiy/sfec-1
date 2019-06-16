@@ -1,0 +1,5 @@
+.nav__link_display_sm {
+    @include sm {
+        display: none;
+    }
+}

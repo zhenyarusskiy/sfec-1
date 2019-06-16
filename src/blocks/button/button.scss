@@ -1,17 +1,18 @@
 .button {
   font-family: "Inter SemiBold";
   background-color: lighten($ultramarine-blue, 5%);
-  color: rgba($white, 0.75);
+  color: rgba($white, .75);
   text-decoration: none;
   border-radius: 8px;
   min-width: 220px;
   padding: 16px 64px;
   clear: both;
   display: inline-block;
+
   &:hover {
     color: rgba($white, 1);
     background-color: $ultramarine-blue;
   }
-  @include sm {
-  }
+
+  @include sm {}
 }

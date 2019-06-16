@@ -1,0 +1,33 @@
+.nav__link_color {
+  @include sm {
+    color: rgba($charcoal-black, .7);
+
+    &:hover {
+      color: $charcoal-black;
+    }
+  }
+
+  @include md {
+    color: rgba($charcoal-black, .7);
+
+    &:hover {
+      color: $charcoal-black;
+    }
+  }
+
+  @include lg {
+    color: rgba($white, .7);
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  @include xl {
+    color: rgba($white, .7);
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

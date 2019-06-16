@@ -1,19 +1,23 @@
 .card_flex-direction_row {
   display: flex;
+
   @include sm {
-    flex-direction: column !important;
+    flex-direction: column;
     margin-bottom: 64px;
   }
+
   @include md {
-    flex-direction: row !important;
+    flex-direction: row;
     margin-bottom: 64px;
   }
+
   @include lg {
-    flex-direction: column !important;
+    flex-direction: column;
     margin-bottom: 0;
   }
+
   @include xl {
-    flex-direction: column !important;
+    flex-direction: column;
     margin-bottom: 0;
   }
 }

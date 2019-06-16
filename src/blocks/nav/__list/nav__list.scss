@@ -1,23 +1,23 @@
 .nav__list {
   font-family: "Inter SemiBold";
   display: flex;
-  justify-content: space-between;
-  @include sm {
-    //width: 30px;
-    //margin-right: 19px;
-    //flex-wrap: wrap;
-    //justify-content: flex-start;
-  }
+  padding-left: 0;
+
+  @include sm {}
+
   @include md {
     min-width: 450px;
-    //margin-right: 44px;
+    justify-content: space-between;
   }
+
   @include lg {
     width: 450px;
     margin: 0;
+    justify-content: space-between;
   }
 
   @include xl {
     width: 450px;
+    justify-content: space-between;
   }
 }

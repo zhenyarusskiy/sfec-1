@@ -1,0 +1,20 @@
+.page-wrapper__specialty {
+    width: 100%;
+
+    @include sm {
+        margin-top: 120px;
+    }
+
+    @include md {
+        margin-top: 120px;
+    }
+
+    @include lg {
+        margin-top: 162px;
+    }
+
+    @include xl {
+        margin-top: 162px;
+
+    }
+}
