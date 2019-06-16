@@ -1,9 +1,7 @@
 .footer__menu {
   min-height: 200px;
-  margin-top: 48px;
   justify-content: space-between;
   @include sm {
-    //padding-top: 56px;
     min-height: 352px;
     justify-content: center;
     flex-direction: column;

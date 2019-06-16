@@ -3,9 +3,8 @@
   line-height: 24px;
   color: $grey-1;
   margin: 0;
-
   @include sm {
-    margin-bottom: 0;
+    //margin-bottom: 0;
   }
   @include md {
   }

@@ -1,4 +1,5 @@
 .card_flex-direction_row {
+  display: flex;
   @include sm {
     flex-direction: column !important;
     margin-bottom: 64px;
