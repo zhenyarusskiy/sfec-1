@@ -1,0 +1,7 @@
+.main-wrapper {
+    min-height: calc(100vh - 88px - 200px);
+
+    @include sm {
+        min-height: calc(100vh - 56px - 352px);
+    }
+}
