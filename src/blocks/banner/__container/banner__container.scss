@@ -1,0 +1,20 @@
+.banner__container {
+    position: relative;
+    display: flex;
+
+    @include sm {
+        flex-direction: column-reverse;
+    }
+
+    @include md {
+        flex-direction: column-reverse;
+    }
+
+    @include lg {
+        flex-direction: row;
+    }
+
+    @include xl {
+        flex-direction: auto;
+    }
+}

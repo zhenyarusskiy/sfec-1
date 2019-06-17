@@ -9,21 +9,24 @@
   justify-content: center;
   align-items: center;
   left: 12px;
-  top: -2px;
+  top: 4px;
 
   @include sm {
     background-color: $ultramarine-blue;
     color: $white;
     top: 2px;
   }
+
   @include md {
     background-color: $ultramarine-blue;
     color: $white;
   }
+
   @include lg {
     background-color: $white;
     color: $ultramarine-blue;
   }
+
   @include xl {
     background-color: $white;
     color: $ultramarine-blue;

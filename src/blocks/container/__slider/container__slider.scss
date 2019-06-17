@@ -2,13 +2,17 @@
   @include sm {
     margin-top: 80px;
   }
+
   @include md {
-    margin-top: 104px;
+    margin-top: 120px;
   }
+
   @include lg {
-    margin-top: 185px;
+    //margin-top: 185px;
+    margin-top: 0;
   }
+
   @include xl {
-    margin-top: 185px;
+    margin-top: 110px;
   }
 }
