@@ -1,23 +1,28 @@
 .specialty__inner-wrapper {
   display: flex;
-
   flex-shrink: 0;
   flex-direction: column;
+  position: relative;
+
   @include sm {
-    position: static;
-  }
-  @include md {
-    top: 568px;
-    left: -768px;
     width: 100%;
-    position: static;
+    margin: calc(50vw + 56px) 0 0 0;
+    position: relative;
   }
+
+  @include md {
+    width: 100%;
+    margin: calc(50vw + 56px) 0 0 0;
+    position: relative;
+  }
+
   @include lg {
     max-width: 449px;
     left: -92px;
     top: 0;
     position: relative;
   }
+
   @include xl {
     max-width: 600px;
     left: -86px;

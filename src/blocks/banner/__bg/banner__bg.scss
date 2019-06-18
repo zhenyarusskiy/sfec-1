@@ -16,12 +16,11 @@
   @include md {
     position: absolute;
     background: url("/src/img/md-banner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
+    background-size: contain;
+    height: 100%;
+    min-width: 768px;
     width: calc(100% + 48px);
-    min-height: 500px;
-    top: 0;
+    background-repeat: no-repeat;
     left: -24px;
   }
 

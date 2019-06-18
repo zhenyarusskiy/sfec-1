@@ -1,6 +1,8 @@
 .container__speciality {
   width: 100%;
-
+  position: relative;
+  display: flex;
+  /*
   @include sm {
     position: static;
     display: block;
@@ -20,4 +22,5 @@
     position: relative;
     display: flex;
   }
+  */
 }

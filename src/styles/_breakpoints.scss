@@ -8,27 +8,22 @@
 */
 
 @mixin sm {
-  @media (max-width: calc(735px + 16px * 2)) {
-    //767
+  @media (max-width: calc(695px + 32px)) {
     @content;
   }
 }
 @mixin md {
-  @media (min-width: calc(680px + 44px * 2)) {
-    //768
+  @media (min-width: calc(680px + 48px)) {
     @content;
   }
 }
 @mixin lg {
-  @media (min-width: calc(1120px + 44px * 2)) {
-    //1208
+  @media (min-width: calc(1120px + 48px)) {
     @content;
   }
 }
 @mixin xl {
-  @media (min-width: calc(1496px + 44px * 2)) {
-    //1584
-
+  @media (min-width: calc(1496px + 48px)) {
     @content;
   }
 }
