@@ -1,0 +1,17 @@
+.card__text-wrapper {
+  flex-shrink: 1;
+  @include sm {
+    width: auto;
+    padding-left: 0;
+  }
+  @include md {
+  }
+  @include lg {
+    width: auto;
+    padding-left: 0;
+  }
+  @include xl {
+    width: auto;
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,14 @@
+.slider {
+  @include sm {
+    display: block;
+  }
+  @include md {
+    display: block;
+  }
+  @include lg {
+    display: flex;
+  }
+  @include xl {
+    display: flex;
+  }
+}

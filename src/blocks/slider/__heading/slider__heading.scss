@@ -1,0 +1,15 @@
+.slider__heading {
+  margin: 0 134px 0 0;
+
+  @include sm {
+    margin-bottom: 40px;
+  }
+  @include md {
+    margin-bottom: 40px;
+  }
+  @include lg {
+    margin-bottom: 80px;
+  }
+  @include xl {
+  }
+}

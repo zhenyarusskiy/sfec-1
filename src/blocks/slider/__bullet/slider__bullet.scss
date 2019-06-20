@@ -1,0 +1,11 @@
+.slider__bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: $gray-2;
+  margin: 0 4px;
+}
+
+.slider__bullet.glide__bullet--active {
+  background-color: $ultramarine-blue;
+}

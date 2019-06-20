@@ -1,0 +1,5 @@
+.card__img-wrapper_size_half {
+    @include md {
+    width: 50%;
+  }
+}

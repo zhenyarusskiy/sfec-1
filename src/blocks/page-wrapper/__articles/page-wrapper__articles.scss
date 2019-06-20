@@ -1,0 +1,14 @@
+.page-wrapper__articles {
+  @include sm {
+    margin-bottom: 120px;
+  }
+  @include md {
+    margin-bottom: 120px;
+  }
+  @include lg {
+    margin-bottom: 200px;
+  }
+  @include xl {
+    margin-bottom: 200px;
+  }
+}

@@ -1,0 +1,17 @@
+.nav__link_color {
+  @include sm {
+    color: $charcoal-black;
+  }
+
+  @include md {
+    color: $charcoal-black;
+  }
+
+  @include lg {
+    color: $white;
+  }
+
+  @include xl {
+    color: $white;
+  }
+}

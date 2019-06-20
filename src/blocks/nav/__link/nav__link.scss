@@ -1,0 +1,11 @@
+.nav__link {
+  text-transform: uppercase;
+  font-size: 12px;
+  text-decoration: none;
+  opacity: .75;
+  transition: opacity .5s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}

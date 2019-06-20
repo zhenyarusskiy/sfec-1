@@ -1,0 +1,14 @@
+.header__logo {
+  color: $charcoal-black;
+  
+  @include sm {
+  }
+  @include md {
+    margin-top: -9px;
+  }
+  @include lg {
+    margin: 0;
+  }
+  @include xl {
+  }
+}

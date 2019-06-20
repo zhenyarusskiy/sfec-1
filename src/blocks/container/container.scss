@@ -1,0 +1,23 @@
+.container {
+  padding: 0 24px;
+  margin: 0 auto;
+
+  @include sm {
+    width: calc(100% - 32px);
+    padding: 0 16px;
+  }
+
+  @include md {
+    width: calc(100% - 48px);
+  }
+
+  @include lg {
+    min-width: calc(769px + 48px);
+    max-width: calc(1120px + 48px);
+  }
+
+  @include xl {
+    min-width: calc(1496px + 48px);
+    max-width: calc(1496px + 48px);
+  }
+}

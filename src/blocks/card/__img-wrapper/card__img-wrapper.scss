@@ -1,0 +1,8 @@
+.card__img-wrapper {
+  @include lg {
+    width: auto;
+  }
+  @include xl {
+    width: auto;
+  }
+}

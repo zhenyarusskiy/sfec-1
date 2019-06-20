@@ -1,0 +1,45 @@
+.specialty__bg {
+  background-repeat: no-repeat;
+  position: relative;
+
+  flex-shrink: 0;
+
+  @include sm {
+    background-image: url("/src/img/specialty-md.png");
+    position: absolute;
+    background-size: contain;
+    height: 100%;
+    min-width: 320px;
+    width: calc(100% + 32px);
+    background-repeat: no-repeat;
+    left: -16px;
+  }
+
+  @include md {
+    background-image: url("/src/img/specialty-md.png");
+    position: absolute;
+    background-size: contain;
+    height: 100%;
+    min-width: 768px;
+    width: calc(100% + 48px);
+    background-repeat: no-repeat;
+    left: -24px;
+  }
+
+  @include lg {
+    top: 8px;
+    left: -160px;
+    width: 764px;
+    height: 574px;
+    background-image: url("/src/img/specialty-xl.jpg");
+    background-size: contain;
+  }
+
+  @include xl {
+    top: 8px;
+    left: -210px;
+    width: 984px;
+    height: 738px;
+    background-image: url("/src/img/specialty-xl.jpg");
+  }
+}

@@ -1,0 +1,6 @@
+.footer__item {
+  display: inline-block;
+  @include sm {
+    margin-top: 16px;
+  }
+}

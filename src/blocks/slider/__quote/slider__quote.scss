@@ -1,0 +1,18 @@
+.slider__quote {
+  font-family: "Inter Italic";
+  font-size: 24px;
+  line-height: 32px;
+
+  @include sm {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  @include md {
+  }
+  @include lg {
+    max-width: 800px;
+  }
+  @include xl {
+    max-width: 856px;
+  }
+}

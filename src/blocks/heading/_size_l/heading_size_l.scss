@@ -1,0 +1,20 @@
+.heading_size_l {
+  margin: 0;
+
+  @include sm {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  @include md {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  @include lg {
+    font-size: 56px;
+    line-height: 64px;
+  }
+  @include xl {
+    font-size: 80px;
+    line-height: 96px;
+  }
+}

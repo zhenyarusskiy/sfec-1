@@ -1,0 +1,14 @@
+.articles__card {
+  @include sm {
+    margin-bottom: 64px;
+  }
+  @include md {
+    margin-bottom: 0;
+  }
+  @include lg {
+    margin-bottom: 0;
+  }
+  @include xl {
+    margin-bottom: 0;
+  }
+}

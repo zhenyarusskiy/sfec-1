@@ -1,0 +1,22 @@
+.specialty__heading {
+  @include sm {
+    margin: 36px 0 24px 0;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  @include md {
+    margin: 40px 0 32px 0;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  @include lg {
+    margin: 86px 0 32px 0;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  @include xl {
+    margin: 200px 0 32px 0;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}

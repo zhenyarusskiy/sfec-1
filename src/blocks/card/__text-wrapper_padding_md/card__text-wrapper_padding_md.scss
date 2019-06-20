@@ -1,0 +1,5 @@
+.card__text-wrapper_padding_md {
+  @include md {
+    padding-left: 24px;
+  }
+}

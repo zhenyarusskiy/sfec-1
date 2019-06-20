@@ -1,0 +1,7 @@
+.slider__item {
+  display: block;
+
+  @include xl {
+    display: flex;
+  }
+}

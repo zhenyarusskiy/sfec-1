@@ -1,0 +1,30 @@
+.specialty__inner-wrapper {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  position: relative;
+
+  @include sm {
+    width: 100%;
+    margin: calc(50vw + 56px) 0 0 0;
+  }
+
+  @include md {
+    width: 100%;
+    margin: calc(50vw + 56px) 0 0 0;
+  }
+
+  @include lg {
+    max-width: 449px;
+    margin: 0;
+    left: 680px;
+    top: 0;
+  }
+
+  @include xl {
+    max-width: 600px;
+    margin: 0;
+    left: 900px;
+    top: 0;
+  }
+}

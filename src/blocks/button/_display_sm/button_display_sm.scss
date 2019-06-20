@@ -1,0 +1,14 @@
+.button_display_sm {
+  @include sm {
+    display: flex;
+  }
+  @include md {
+    display: none !important;
+  }
+  @include lg {
+    display: none !important;
+  }
+  @include xl {
+    display: none !important;
+  }
+}

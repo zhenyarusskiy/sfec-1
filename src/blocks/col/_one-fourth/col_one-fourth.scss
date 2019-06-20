@@ -1,0 +1,42 @@
+.col_one-fourth {
+  &:nth-child(3) {
+    @include sm {
+      display: none;
+    }
+    @include md {
+      display: none;
+    }
+    @include lg {
+      display: flex;
+    }
+    @include xl {
+      display: flex;
+    }
+  }
+  &:last-child {
+    @include sm {
+      display: none;
+    }
+    @include md {
+      display: flex;
+    }
+    @include lg {
+      display: flex;
+    }
+    @include xl {
+      display: flex;
+    }
+  }
+  @include sm {
+    width: 100%;
+  }
+  @include md {
+    width: calc(33% - 16px);
+  }
+  @include lg {
+    width: calc(25% - 30px);
+  }
+  @include xl {
+    width: calc(25% - 30px);
+  }
+}

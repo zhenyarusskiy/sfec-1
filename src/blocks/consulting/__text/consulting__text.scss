@@ -1,0 +1,20 @@
+.consulting__text {
+  color: $charcoal-black;
+  font-size: 16px;
+  line-height: 24px;
+
+  @include sm {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  @include md {
+    width: 100%;
+    margin-bottom: 26px;
+  }
+  @include lg {
+    max-width: 736px;
+  }
+  @include xl {
+    width: 856px;
+  }
+}

@@ -1,0 +1,17 @@
+.button {
+  font-family: "Inter SemiBold";
+  background-color: $ultramarine-blue;
+  color: $white;
+  text-decoration: none;
+  border-radius: 8px;
+  min-width: 220px;
+  padding: 16px 64px;
+  clear: both;
+  display: inline-block;
+  opacity: .85;
+  transition: opacity .5s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}

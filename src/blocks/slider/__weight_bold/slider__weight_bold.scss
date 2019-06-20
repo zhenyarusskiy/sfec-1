@@ -1,0 +1,6 @@
+.slider__weight_bold {
+  font-family: "Inter Bold";
+  @include sm {
+    display: block;
+  }
+}

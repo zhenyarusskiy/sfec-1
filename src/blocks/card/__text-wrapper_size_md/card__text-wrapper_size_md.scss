@@ -1,0 +1,8 @@
+.card__text-wrapper_size_md {
+    @include md {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

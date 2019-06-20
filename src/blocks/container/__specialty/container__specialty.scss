@@ -1,0 +1,26 @@
+.container__speciality {
+  width: 100%;
+  position: relative;
+  display: flex;
+  /*
+  @include sm {
+    position: static;
+    display: block;
+  }
+
+  @include md {
+    position: static;
+    display: block;
+  }
+
+  @include lg {
+    position: relative;
+    display: flex;
+  }
+
+  @include xl {
+    position: relative;
+    display: flex;
+  }
+  */
+}

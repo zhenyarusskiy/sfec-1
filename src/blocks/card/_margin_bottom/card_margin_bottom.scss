@@ -1,0 +1,11 @@
+.card_margin_bottom {
+  @include sm {
+    margin-bottom: 0;
+  }
+  @include md {
+  }
+  @include lg {
+  }
+  @include xl {
+  }
+}

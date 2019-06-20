@@ -1,0 +1,27 @@
+.banner__content {
+  position: relative;
+  flex-shrink: 0;
+  top: 0;
+
+  @include sm {
+    min-width: 258px;
+    margin: calc(43vw + 56px) 0 0 0;
+    max-width: 400px;
+    height: 180px;
+  }
+
+  @include md {
+    width: 470px;
+    margin: calc(43vw + 56px) 0 0 0;
+  }
+
+  @include lg {
+    width: 490px;
+    margin: 200px 0 0 0;
+  }
+
+  @include xl {
+    width: 706px;
+    margin: 270px 0 0 0;
+  }
+}
