@@ -24,6 +24,10 @@ module.exports = {
     ]),
     new HtmlWebpackPlugin({
       template: Path.resolve(__dirname, '../src/index.html')
+    }),
+    ///  вот это я у себя добавил и все норм, есть нюансы в кот. ныдо разбираться
+      new HtmlWebpackPlugin({
+      template: Path.resolve(__dirname, '../src/name_your_page.html')
     })
   ],
   resolve: {
