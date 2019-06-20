@@ -7,26 +7,24 @@
   @include sm {
     width: 100%;
     margin: calc(50vw + 56px) 0 0 0;
-    position: relative;
   }
 
   @include md {
     width: 100%;
     margin: calc(50vw + 56px) 0 0 0;
-    position: relative;
   }
 
   @include lg {
     max-width: 449px;
-    left: -92px;
+    margin: 0;
+    left: 680px;
     top: 0;
-    position: relative;
   }
 
   @include xl {
     max-width: 600px;
-    left: -86px;
+    margin: 0;
+    left: 900px;
     top: 0;
-    position: relative;
   }
 }
